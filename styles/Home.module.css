@@ -1,6 +1,7 @@
 
 .app {
-  background-image: linear-gradient(to right top, #ff722b, #ff603b, #ff4c4b, #ff385b, #ff216b);
+  /* background-image: linear-gradient(to right top, #ff722b, #ff603b, #ff4c4b, #ff385b, #ff216b); */
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   height: 100vh;
   position: fixed;
 
@@ -15,21 +16,24 @@ HEADER
 */
 
 .header {
-  position: relative;
   width: 100vw;
   height: 10vh;
 }
 
 .logo {
+  margin-top: 50px;
+  margin-left: 50px;
   position: absolute;
+
 }
 
 .navButtons {
   margin-top: 50px;
-  margin-left: 200px;
   justify-content: flex-start;
   position: absolute;
   top: 0px;
+  margin-left: 50vw;
+  transform: translateX(-50%);
 }
 
 .neon_button {
@@ -109,6 +113,28 @@ HEADER
 } */
 
 
+
+/*
+
+BODY
+
+*/
+
+
+.projects {
+  width: 90vw;
+  margin-left: 5vw;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 50px;
+  background-color: #222222;
+  height: 500px;
+  padding-top: 25px;
+  padding-left: 50px;
+  color: #fff;
+}
+
+
 /*
 
 FOOTER
@@ -119,7 +145,6 @@ FOOTER
   width: 100vw;
   height: 100px;
   background-color: #171E27;
-  position: fixed;
   bottom: 0px;
   display: flex;
   align-items: center;
@@ -159,7 +184,7 @@ FOOTER
 
 /*
 
-PROJECTS
+PROJECT
 
 */
 
@@ -174,4 +199,5 @@ PROJECTS
   padding-top: 25px;
   padding-left: 50px;
   color: #fff;
+
 }
