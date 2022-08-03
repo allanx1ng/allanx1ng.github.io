@@ -8,9 +8,7 @@ export default function ProjectsPage() {
         <>
             <div className={styles.projects}>
                 <h1>
-                    <Link href='./projects'>
-                        Projects
-                    </Link>
+                    Projects
                 </h1>
                 {Projects.map((project) => (
                     <p>
