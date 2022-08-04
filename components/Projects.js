@@ -2,6 +2,9 @@ import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Projects from '../data/projects.json'
 import Link from 'next/link'
+import ProjectCard from './ProjectCard'
+
+import imgTest from '../public/25231.png'
 
 export default function ProjectsPage() {
     return (
@@ -15,6 +18,7 @@ export default function ProjectsPage() {
                         <Link href={'./projects/' + project.name}>
                             {project.name}
                         </Link>
+                        <ProjectCard title={project.name} description={project.description} imgUrl={imgTest}/>
 
                     </p>
                 ))}

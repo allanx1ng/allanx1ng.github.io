@@ -14,10 +14,6 @@ export default function Home() {
         <title>Allan Xing 🚀🌙</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      
-      <Link href='./projects'>
-        Projects
-      </Link>
       <Projects />
       <Projects />
       <Projects />

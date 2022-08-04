@@ -3,9 +3,9 @@ import styles from '../styles/Home.module.css'
 export default function About() {
     return (
         <div className={styles.about}>
-            <h3>
+            <h2>
                 About me
-            </h3>
+            </h2>
             <p>
                 My name is Allan Xing and I'm currently in my second year of studying computer science at UBC.
                 I have programmed in various languages such as Java, Javascript and Python, through personal projects
@@ -14,9 +14,9 @@ export default function About() {
             </p>
 
 
-            <h3 className={styles.sectionTitle}>
+            <h2 className={styles.sectionTitle}>
                     Technical Skills
-                </h3>
+                </h2>
             <div className={styles.skills}>
                 <p className={styles.skill}>
                     Java
@@ -45,9 +45,9 @@ export default function About() {
             </div>
 
 
-            <h3 className={styles.sectionTitle}>
+            <h2 className={styles.sectionTitle}>
                     Other Skills
-                </h3>
+                </h2>
             <div className={styles.skills}>
                 <p className={styles.skill}>
                     Adobe Photoshop/Lightroom
@@ -66,9 +66,9 @@ export default function About() {
                 </p>
             </div>
 
-            <h3>
+            <h2>
                 About me
-            </h3>
+            </h2>
             <p>
                 My name is Allan Xing and I'm currently in my second year of studying computer science at UBC.
             </p>
