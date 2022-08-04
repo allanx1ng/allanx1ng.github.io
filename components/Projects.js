@@ -18,7 +18,7 @@ export default function ProjectsPage() {
                         <Link href={'./projects/' + project.name}>
                             {project.name}
                         </Link>
-                        <ProjectCard title={project.name} description={project.description} imgUrl={imgTest}/>
+                        
 
                     </p>
                 ))}
