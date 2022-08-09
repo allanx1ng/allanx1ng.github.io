@@ -111,9 +111,20 @@ BODY
 */
 
 
-.projects {
-  width: 90vw;
+.homepageAbout {
+  width: 55vw;
   margin-left: 5vw;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border-radius: 50px;
+  background-color: #222222;
+  padding: 50px;
+  color: #fff;
+}
+
+.projects {
+  width: 55vw;
+  margin-left: 40vw;
   margin-top: 100px;
   margin-bottom: 200px;
   border-radius: 50px;
@@ -142,6 +153,7 @@ FOOTER
   align-items: center;
   justify-content: center;
   margin-top: 100px;
+  position: fixed;
 }
 
 .footerButton {
@@ -207,6 +219,7 @@ PROJECT
   flex-wrap: wrap;
   justify-content: center;
   width: 90vw;
+  margin-top: 200px;
   margin-left: 5vw;
 
   background-color: #222222;
@@ -276,8 +289,12 @@ PROJECT
   letter-spacing: 0.8px;
   transition: 0.5s ease-in-out;
 }
-.proj_container_box span {
+
+.proj_container_box h1 {
   width: 100%;
+  text-align: center;
+}
+.proj_container_box span {
   text-align: center;
   font-style: italic;
   font-weight: 400;
@@ -285,6 +302,10 @@ PROJECT
   letter-spacing: 0.8px;
   transition: 0.5s ease-in-out;
   margin: 20px;
+
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -314,13 +335,17 @@ ABOUT
 
 .skills {
   display: flex;
+  width: 100%;
   justify-content: center;
   padding: 10px;
   margin-bottom: 50px;
+  /* flex-wrap: wrap; */
+  text-align: center;
 
 }
 
 .skill {
+  /* width: 15%; */
   margin: 20px;
 
 }

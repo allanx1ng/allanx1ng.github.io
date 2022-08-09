@@ -10,22 +10,22 @@ export default function Header() {
             <h1 className={styles.logo}>ALLAN XING</h1>
             <div className={styles.navButtons}>
                 <button className={styles.neon_button}>
-                    <Link href='./'>
+                    <Link href='/'>
                         Home
                     </Link>
                 </button>
                 <button className={styles.neon_button} >
-                    <Link href='./about'>
+                    <Link href='/about'>
                         About
                     </Link>
                 </button>
                 <button className={styles.neon_button}>
-                    <Link href='./projects'>
+                    <Link href='/projects'>
                         Projects
                     </Link>
                 </button>
                 <button className={styles.neon_button}>
-                    <Link href='./'>
+                    <Link href='/'>
                         Contact
                     </Link>
                 </button>

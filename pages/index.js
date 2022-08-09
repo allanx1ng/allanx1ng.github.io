@@ -5,7 +5,8 @@ import App from './_app'
 import Head from 'next/head'
 import Link from 'next/link'
 
-import Projects from '../components/Projects'
+import Projects from '../components/HomepageProjects'
+import About from '../components/HomepageAbout'
 
 export default function Home() {
   return (
@@ -14,8 +15,7 @@ export default function Home() {
         <title>Allan Xing 🚀🌙</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Projects />
-      <Projects />
+      <About />
       <Projects />
     </div>
 

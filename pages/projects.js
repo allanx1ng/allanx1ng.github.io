@@ -1,4 +1,4 @@
-import Projects from "../components/Projects"
+import Projects from "../components/HomepageProjects"
 import styles from '../styles/Home.module.css'
 import ProjectCard from "../components/ProjectCard"
 import ProjectsFile from '../data/projects.json'
@@ -18,8 +18,6 @@ export default function ProjectsPage() {
 
   return (
     <>
-      <Projects />
-
       <div className={styles.proj_container_box}>
         <h1>
           Projects

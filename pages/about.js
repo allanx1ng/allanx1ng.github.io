@@ -1,7 +1,12 @@
 import styles from '../styles/Home.module.css'
 
 export default function About() {
+
+    const technicalSkills = ["Java", "HTML/CSS/JS", "React/NextJs", "Lua & Roblox Studio,", "Python", "C/C++", "C# & Unity Engine", "Github"]
+    const otherSkills = ["Adobe Photoshop/Lightroom", "Adobe Premiere Pro", "Microsoft Excel", "Photography"]
+
     return (
+
         <div className={styles.about}>
             <h2>
                 About me
@@ -15,55 +20,26 @@ export default function About() {
 
 
             <h2 className={styles.sectionTitle}>
-                    Technical Skills
-                </h2>
+                Technical Skills
+            </h2>
             <div className={styles.skills}>
-                <p className={styles.skill}>
-                    Java
-                </p>
-                <p className={styles.skill}>
-                    HTML/CSS/JS
-                </p>
-                <p className={styles.skill}>
-                    React/NextJs
-                </p>
-                <p className={styles.skill}>
-                    Lua & Roblox Studio
-                </p>
-                <p className={styles.skill}>
-                    Python
-                </p>
-                <p className={styles.skill}>
-                    C/C++
-                </p>
-                <p className={styles.skill}>
-                    C# & Unity Engine
-                </p>
-                <p className={styles.skill}>
-                    Github
-                </p>
+                {technicalSkills.map((skill) => (
+                    <p className={styles.skill}>
+                        {skill}
+                    </p>
+                ))}
             </div>
 
 
             <h2 className={styles.sectionTitle}>
-                    Other Skills
-                </h2>
+                Other Skills
+            </h2>
             <div className={styles.skills}>
-                <p className={styles.skill}>
-                    Adobe Photoshop/Lightroom
-                </p>
-                <p className={styles.skill}>
-                    Adobe Premiere Pro
-                </p>
-                <p className={styles.skill}>
-                    Microsoft Excel
-                </p>
-                <p className={styles.skill}>
-                    Photography
-                </p>
-                <p className={styles.skill}>
-                    Drone pilot
-                </p>
+                {otherSkills.map((skill) => (
+                    <p className={styles.skill}>
+                        {skill}
+                    </p>
+                ))}
             </div>
 
             <h2>
