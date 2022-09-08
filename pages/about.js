@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export default function About() {
 
     const technicalSkills = ["Java", "HTML/CSS/JS", "React/NextJs", "Lua & Roblox Studio,", "Python", "C/C++", "C# & Unity Engine", "Github"]
-    const otherSkills = ["Adobe Photoshop/Lightroom", "Adobe Premiere Pro", "Microsoft Excel", "Photography"]
+    const otherSkills = ["Adobe Photoshop/Lightroom", "Adobe Premiere Pro", "Microsoft Excel", "Blender", "Photography"]
 
     return (
 
