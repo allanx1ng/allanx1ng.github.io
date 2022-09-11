@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function AboutPage() {
     return (
         <>
-            <div className={styles.homepageAbout}>
+            <div className={styles.about}>
                 <h1>
                     About me
                 </h1>

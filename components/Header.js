@@ -9,22 +9,22 @@ export default function Header() {
             {/* <Image className={styles.logo} src={icon} width={160} height={160} /> */}
             <h1 className={styles.logo}>Deez nuts</h1>
             <div className={styles.navButtons}>
-                <button className={styles.neon_button}>
+                <button>
                     <Link href='/'>
                         Home
                     </Link>
                 </button>
-                <button className={styles.neon_button} >
+                <button>
                     <Link href='/about'>
                         About
                     </Link>
                 </button>
-                <button className={styles.neon_button}>
+                <button>
                     <Link href='/projects'>
                         Projects
                     </Link>
                 </button>
-                <button className={styles.neon_button}>
+                <button>
                     <Link href='/'>
                         Contact
                     </Link>

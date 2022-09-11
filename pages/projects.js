@@ -10,6 +10,8 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 
 import imgTest from '../public/rectangle2.png'
 
+import Particles from '../components/Particles'
+
 
 import TrackVisibility from 'react-on-screen';
 //import 'animate.css';
@@ -31,6 +33,7 @@ export default function ProjectsPage() {
           ))}
         </div>
       </div>
+      <Particles/>
     </>
 
 
