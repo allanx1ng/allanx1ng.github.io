@@ -176,6 +176,32 @@ BODY
   cursor: pointer;
 }
 
+.socials {
+  margin-left: 10vw;
+  display: flex;
+  width: 40vw;
+  margin-top: 20px;
+ 
+}
+
+.socials button {
+  width: 60px;
+  height: 60px;
+  color: #ff0000;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border-width: 0px;
+  margin-right: 10px;
+}
+
+.socials button:hover {
+  color: #666;
+}
+
+
 
 
 .projects {
@@ -189,6 +215,24 @@ BODY
   min-width: 100vw;
   min-height: 100vh;
   
+}
+
+.scrollButton {
+  width: 200px;
+  height: 60px;
+  background-color: #2406ad;
+  color: #ffffff;
+  border-radius: 30px;
+  border-width: 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollButton:hover {
+  background-color: #200598;
+  cursor: pointer;
 }
 
 
@@ -206,6 +250,7 @@ FOOTER
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #92dcff;
 }
 
 .footerButton {
@@ -227,7 +272,6 @@ FOOTER
 }
 
 .footerIcon {
-  color: #92dcff;
   margin-left: 10px;
   margin-right: 10px;
   width: 40px;
@@ -369,7 +413,7 @@ ABOUT
 
 */
 
-/* .about {
+.aboutpage {
   width: 90vw;
   margin-left: 5vw;
   margin-top: 100px;
@@ -400,4 +444,4 @@ ABOUT
   width: 15%;
   margin: 20px;
 
-} */
+}

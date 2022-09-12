@@ -1,5 +1,7 @@
 import styles from '../styles/Home.module.css'
 
+import Particles from '../components/Particles'
+
 export default function About() {
 
     const technicalSkills = ["Java", "HTML/CSS/JS", "React/NextJs", "Lua & Roblox Studio,", "Python", "C/C++", "C# & Unity Engine", "Github"]
@@ -7,7 +9,7 @@ export default function About() {
 
     return (
 
-        <div className={styles.about}>
+        <div className={styles.aboutpage}>
             <h2>
                 About me
             </h2>
@@ -48,6 +50,8 @@ export default function About() {
             <p>
                 My name is Allan Xing and I'm currently in my second year of studying computer science at UBC.
             </p>
+
+            <Particles/>
         </div>
     )
 }

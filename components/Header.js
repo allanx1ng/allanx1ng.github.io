@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className={styles.header}>
             {/* <Image className={styles.logo} src={icon} width={160} height={160} /> */}
-            <h1 className={styles.logo}>Deez nuts</h1>
+            <h1 className={styles.logo}>Hello World</h1>
             <div className={styles.navButtons}>
                 <button>
                     <Link href='/'>

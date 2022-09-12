@@ -1,20 +1,24 @@
+import styles from '../styles/Home.module.css'
 
-export default function ScrollButton() {
+import { Icon } from '@iconify/react';
+
+const ScrollButton = () => {
 
     const scrollToTop = () => {
-        window.scrollTo({
+        document.querySelector('body').scrollTo({
             top: 0,
             behavior: 'smooth'
-            /* you can also use 'auto' behaviour
-               in place of 'smooth' */
         })
 
-        console.log('scrolled')   
+        console.log('scrolled')
     }
 
     return (
-        <button onClick={scrollToTop}>
-            ScrollButton
+        <button className={styles.scrollButton} onClick={scrollToTop}>
+            Back to top 
+            <Icon icon="akar-icons:arrow-up-thick" width="50" height="50" />
         </button>
     )
 }
+
+export default ScrollButton
