@@ -441,7 +441,16 @@ ABOUT
 }
 
 .skill {
-  width: 15%;
+  width: 200px;
+  height: 120px;
   margin: 20px;
-
+  display: inline-block;
+  text-align: center;
+  padding: 20px
 }
+
+.skill span {
+  width: 100%;
+  margin-top: 100px;
+}
+
