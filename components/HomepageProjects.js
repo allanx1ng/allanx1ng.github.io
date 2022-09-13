@@ -13,9 +13,13 @@ export default function ProjectsPage() {
                 </Link>
 
                 <span>
+                    
                     <span>
                     <img src='/rectangle2.png' width={200}/>
+                    <p>
                         xd
+                    </p>
+                        
                     </span>
                     <span>
                         xd

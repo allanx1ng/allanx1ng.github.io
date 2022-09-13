@@ -127,12 +127,27 @@ BODY
 
 */
 
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: center;
+
+}
 
 .intro {
-  min-width: 100vw;
-  min-height: 80vh;
-  
+ 
 }
+
+.pfp {
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+}
+
 
 .particles {
   width: 100%;
@@ -143,8 +158,7 @@ BODY
 
 .nameText {
   font-size: 80px;
-  width: 40vw;
-  margin-left: 10vw;
+  width: 45vw;
   margin-top: 15vh;
 }
 
@@ -155,7 +169,6 @@ BODY
 .animatedText {
   font-size: 40px;
   width: 40vw;
-  margin-left: 10vw;
   margin-top: 50px;
   margin-bottom: 25px;
 }
@@ -167,7 +180,6 @@ BODY
   color: #ffffff;
   border-radius: 25px;
   border-width: 0px;
-  margin-left: 10vw;
   font-size: 20px;
 }
 
@@ -177,7 +189,6 @@ BODY
 }
 
 .socials {
-  margin-left: 10vw;
   display: flex;
   width: 40vw;
   margin-top: 20px;
@@ -222,13 +233,36 @@ BODY
 
 .projects span span {
   width: 200px;
-  height: 200px;
-  background-color: #ff0000;
+  height: 150px;
   margin: 20px;
   display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.25s ease-in-out;
+}
+
+.projects span span:hover {
+  color:#000;
+  
+  opacity: 100;
+}
+
+.projects p {
+  z-index: 1;
+}
+
+.projects img {
+  position: absolute;
+  opacity: 100;
+  transition: all 0.25s ease-in-out;
+}
+
+.projects img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  
 }
 
 .about {

@@ -436,8 +436,8 @@ const ParticlesComponent = (props) => {
         },
         "size": {
           "value": {
-            "min": 0.1,
-            "max": 3
+            "min": 1,
+            "max": 5
           }
         },
         "life": {

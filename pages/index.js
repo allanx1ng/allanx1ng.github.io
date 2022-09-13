@@ -25,37 +25,50 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      
 
-      <div className={styles.intro} id='header'>
-        <div className={styles.nameText}>
-          Hello World{' '}
-          <div className={styles.nameText_Name}>
-            hello world
 
+      <div className={styles.body}>
+
+        <div className={styles.intro} id='header'>
+          <div className={styles.nameText}>
+            Hello World{' '}
+            <div className={styles.nameText_Name}>
+              hello world
+
+            </div>
           </div>
-        </div>
-        <div className={styles.animatedText}>
-          hello world
-        </div>
-        <button className={styles.aboutMeButton}>
-          hello world
-        </button>
+          <div className={styles.animatedText}>
+            hello world
+          </div>
+          <button className={styles.aboutMeButton}>
+            hello world
+          </button>
 
-        <div className={styles.socials}>
-          <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
-          <Socials link='https://www.linkedin.com/in/allan-xing-53b853236/' icon="akar-icons:linkedin-fill" />
-          <Socials link='https://github.com/allanx1ng' icon="akar-icons:instagram-fill" />
-          <Socials link='https://github.com/allanx1ng' icon="ant-design:youtube-outlined" />
-          <Socials link='https://github.com/allanx1ng' icon="ant-design:camera-outlined" />
+          <div className={styles.socials}>
+            <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
+            <Socials link='https://www.linkedin.com/in/allan-xing-53b853236/' icon="akar-icons:linkedin-fill" />
+            <Socials link='https://github.com/allanx1ng' icon="akar-icons:instagram-fill" />
+            <Socials link='https://github.com/allanx1ng' icon="ant-design:youtube-outlined" />
+            <Socials link='https://github.com/allanx1ng' icon="ant-design:camera-outlined" />
+          </div>
+
+
+        </div>
+
+        <div className={styles.pfp}>
+          <img src='/pfp.png' width={500}/>
         </div>
 
       </div>
 
 
       <Projects className={styles.projects} />
+      <div>
       <About className={styles.about} />
       <ScrollButton />
+      </div>
+      
+      
 
 
 
