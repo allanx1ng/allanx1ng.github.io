@@ -11,6 +11,22 @@ export default function ProjectsPage() {
                 <Link href="/projects">
                     Click here to learn more about my projects!
                 </Link>
+
+                <span>
+                    <span>
+                    <img src='/rectangle2.png' width={200}/>
+                        xd
+                    </span>
+                    <span>
+                        xd
+                    </span>
+                    <span>
+                        xd
+                    </span>
+                    <span>
+                        xd
+                    </span>
+                </span>
             </div>
         </>
     )

@@ -9,10 +9,10 @@ const ProjectCard = ({ title, description, imgUrl }) => {
 
     <>
       <div className={styles.proj_imgbx}>
-      
+
         <Link href={'./projects/' + title} >
           <div className={styles.proj_imgbx_link}>
-          <Image src={imgUrl} className={styles.proj_img} />
+            <Image src={imgUrl} className={styles.proj_img} />
             <div className={styles.proj_txtx}>
               <h4>
                 {title}

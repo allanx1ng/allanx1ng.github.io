@@ -205,10 +205,30 @@ BODY
 
 
 .projects {
-  min-width: 1920px;
-  min-height: 1080px;
+  width: 100vw;
+  min-height: 100vh;
   background-color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
 
+.projects span {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects span span {
+  width: 200px;
+  height: 200px;
+  background-color: #ff0000;
+  margin: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {
@@ -449,8 +469,4 @@ ABOUT
   padding: 20px
 }
 
-.skill span {
-  width: 100%;
-  margin-top: 100px;
-}
 

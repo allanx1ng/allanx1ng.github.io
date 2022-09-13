@@ -12,6 +12,11 @@ import ScrollButton from '../components/ScrollButton'
 import Socials from '../components/Socials'
 
 
+import ProjectCard from "../components/ProjectCard"
+import ProjectsFile from '../data/projects.json'
+
+
+
 export default function Home() {
   return (
     <div>
@@ -20,8 +25,9 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
+      
 
-      <div className={styles.intro}>
+      <div className={styles.intro} id='header'>
         <div className={styles.nameText}>
           Hello World{' '}
           <div className={styles.nameText_Name}>
