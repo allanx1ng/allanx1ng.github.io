@@ -8,18 +8,21 @@ export default function ProjectsPage() {
                 <h1>
                     Projects
                 </h1>
-                <Link href="/projects">
-                    Click here to learn more about my projects!
-                </Link>
+                <p>
+                    Click on a project to learn more!
+                </p>
+                {/* <Link href="/projects">
+
+                </Link> */}
 
                 <span>
-                    
+
                     <span>
-                    <img src='/rectangle2.png' width={200}/>
-                    <p>
-                        xd
-                    </p>
-                        
+                        <img src='/rectangle2.png' width={200} />
+                        <p>
+                            xd
+                        </p>
+
                     </span>
                     <span>
                         xd

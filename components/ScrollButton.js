@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 
 import { Icon } from '@iconify/react';
 
-const ScrollButton = () => {
+const ScrollButton = ({icon, width, height}) => {
 
     const scrollToTop = () => {
         document.querySelector('body').scrollTo({
@@ -14,10 +14,13 @@ const ScrollButton = () => {
     }
 
     return (
+        <>
         <button className={styles.scrollButton} onClick={scrollToTop}>
-            Back to top 
-            <Icon icon="akar-icons:arrow-up-thick" width="50" height="50" />
+            <p>Back to top{' '}</p>
+            <Icon icon={icon} width={width} height={height} />
         </button>
+        </>
+        
     )
 }
 

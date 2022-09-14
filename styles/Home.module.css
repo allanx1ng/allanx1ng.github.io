@@ -268,7 +268,33 @@ BODY
 .about {
   min-width: 100vw;
   min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
+}
+
+.about_box {
+  width: 800px;
+  height: 500px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  text-align: left;
+  border-width: 10px;
+  border-color: #ff9822;
+  border-radius: 50px;
+  border-style: solid;
+}
+
+.about_box span {
+  width: 400px;
+  height: 500px;
+
+  margin: 20px;
 }
 
 .scrollButton {
@@ -287,6 +313,10 @@ BODY
 .scrollButton:hover {
   background-color: #200598;
   cursor: pointer;
+}
+
+.scrollButton p {
+  margin-right: 10px;
 }
 
 
@@ -468,9 +498,8 @@ ABOUT
 */
 
 .aboutpage {
-  width: 90vw;
-  margin-left: 5vw;
-  margin-top: 100px;
+  width: 100vw;
+  min-height: 100vh;
   margin-bottom: 200px;
   border-radius: 5px;
   background-color: #fff;
@@ -480,27 +509,45 @@ ABOUT
 
 .sectionTitle{
   margin-top: 50px;
+  
   text-align: center;
 }
+
+.aboutpage h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 
 .skills {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 50px;
   flex-wrap: wrap;
   text-align: center;
+  background-color: #ff0000;
+  border-radius: 50px;
 
 }
 
 .skill {
   width: 200px;
-  height: 120px;
-  margin: 20px;
-  display: inline-block;
+  height: 150px;
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   text-align: center;
-  padding: 20px
+  padding: 25px;
+  background-color: #00ff00;
+  border-radius: 20px;
 }
 
+.skill span {
+  margin: 10px;
+  width: 100%;
+}
 

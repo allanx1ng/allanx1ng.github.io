@@ -10,6 +10,7 @@ import About from '../components/HomepageAbout'
 import Particles from '../components/Particles';
 import ScrollButton from '../components/ScrollButton'
 import Socials from '../components/Socials'
+import Skills from '../components/Skills'
 
 
 import ProjectCard from "../components/ProjectCard"
@@ -34,7 +35,6 @@ export default function Home() {
             Hello World{' '}
             <div className={styles.nameText_Name}>
               hello world
-
             </div>
           </div>
           <div className={styles.animatedText}>
@@ -56,19 +56,21 @@ export default function Home() {
         </div>
 
         <div className={styles.pfp}>
-          <img src='/pfp.png' width={500}/>
+          <img src='/pfp.png' width={500} />
         </div>
 
       </div>
 
 
-      <Projects className={styles.projects} />
-      <div>
-      <About className={styles.about} />
-      <ScrollButton />
-      </div>
+      <Projects />
       
-      
+      <About />
+
+      <Skills />
+
+      <ScrollButton icon={"bi:arrow-up-circle"} width={40} height={40}/>
+
+
 
 
 
