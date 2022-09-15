@@ -29,7 +29,7 @@ const Skills = () => {
 
     return (
 
-        <div className={styles.aboutpage}>
+        <div className={styles.aboutpage} id='skills'>
             <h1>
                 Skills
             </h1>

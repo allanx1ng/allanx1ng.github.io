@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 export default function AboutPage() {
     return (
-        <div className={styles.about}>
+        <div className={styles.about} id='about' >
             <span className={styles.about_box}>
-                
+
                 <span>
                     <h1>
                         About me
@@ -18,7 +18,7 @@ export default function AboutPage() {
                     </p>
                 </span>
                 <span>
-                    <img src='pfp.png' width='400'/>
+                    <img src='pfp.png' width='400' />
                 </span>
 
             </span>

@@ -11,10 +11,20 @@ import Particles from '../components/Particles';
 import ScrollButton from '../components/ScrollButton'
 import Socials from '../components/Socials'
 import Skills from '../components/Skills'
+import Contact from '../components/Contact'
 
 
 import ProjectCard from "../components/ProjectCard"
 import ProjectsFile from '../data/projects.json'
+
+// import dynamic from "next/dynamic";
+
+// const ScrollButton = dynamic(
+//   () => {
+//     return import("../components/ScrollButton");
+//   },
+//   { ssr: false }
+// );
 
 
 
@@ -60,19 +70,17 @@ export default function Home() {
         </div>
 
       </div>
+      <ScrollButton icon={"ep:arrow-up-bold"} width={30} height={30} />
 
-
-      <Projects />
-      
       <About />
 
       <Skills />
 
-      <ScrollButton icon={"bi:arrow-up-circle"} width={40} height={40}/>
+      <Projects />
 
+      <Contact />
 
-
-
+     
 
       <Particles className={styles.particles} />
     </div>

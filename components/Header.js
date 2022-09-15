@@ -15,17 +15,17 @@ export default function Header() {
                     </Link>
                 </button>
                 <button>
-                    <Link href='/about'>
+                    <Link href='#about'>
                         About
                     </Link>
                 </button>
                 <button>
-                    <Link href='/projects'>
+                    <Link href='#projects'>
                         Projects
                     </Link>
                 </button>
                 <button>
-                    <Link href='/'>
+                    <Link href='#contact'>
                         Contact
                     </Link>
                 </button>

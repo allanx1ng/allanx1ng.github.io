@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function ProjectsPage() {
     return (
         <>
-            <div className={styles.projects}>
+            <div className={styles.projects}  id='projects'>
                 <h1>
                     Projects
                 </h1>
