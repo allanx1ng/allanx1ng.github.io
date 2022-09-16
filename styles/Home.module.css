@@ -31,7 +31,8 @@ HEADER
   font-weight: bold;
   margin-left: 20px;
   margin-right: 20px;
-  border-width: 0px;
+  border-width: 3px;
+  border-color: transparent;
   background: transparent;
 }
 
@@ -39,6 +40,8 @@ HEADER
   cursor: pointer;
   color: #2406ad;
   transition: 200ms linear;
+
+  border-bottom: 3px solid #000 ;
 }
 
 
