@@ -1,10 +1,10 @@
 
-import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
 import App from './_app'
 import Head from 'next/head'
-import Link from 'next/link'
 
+import Header from '../components/Header'
 import Projects from "../components/HomepageProjects"
 import About from '../components/HomepageAbout'
 import Particles from '../components/Particles';
@@ -31,6 +31,7 @@ import ProjectsFile from '../data/projects.json'
 export default function Home() {
   return (
     <div>
+      <Header/>
       <Head>
         <title>Allan Xing 🚀🌙</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -58,8 +59,8 @@ export default function Home() {
             <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
             <Socials link='https://www.linkedin.com/in/allan-xing-53b853236/' icon="akar-icons:linkedin-fill" />
             <Socials link='https://github.com/allanx1ng' icon="akar-icons:instagram-fill" />
-            <Socials link='https://github.com/allanx1ng' icon="ant-design:youtube-outlined" />
-            <Socials link='https://github.com/allanx1ng' icon="ant-design:camera-outlined" />
+            {/* <Socials link='https://github.com/allanx1ng' icon="ant-design:youtube-outlined" />
+            <Socials link='https://github.com/allanx1ng' icon="ant-design:camera-outlined" /> */}
           </div>
 
 
