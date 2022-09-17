@@ -308,6 +308,11 @@ const ParticlesComponent = (props) => {
       // }
 
 
+      "background": {
+        "opacity": {
+          "value": 0,
+        },
+      },
       "fullScreen": {
         "zIndex": -1
       },
@@ -407,7 +412,7 @@ const ParticlesComponent = (props) => {
       },
       "particles": {
         "color": {
-          "value": "#000000",
+          "value": "#ffffff", // PARTICLES COLOR VALUE
           "animation": {
             "h": {
               "enable": true,
@@ -529,7 +534,7 @@ const ParticlesComponent = (props) => {
         "links": {
           "blink": false,
           "color": {
-            "value": "#000000"
+            "value": "#ffffff"  //LINKS COLOR CHANGER
           },
           "consent": false,
           "distance": 100,

@@ -1,5 +1,3 @@
-
-
 import styles from '../styles/Home.module.css'
 import App from './_app'
 import Head from 'next/head'
@@ -80,8 +78,6 @@ export default function Home() {
       <Projects />
 
       <Contact />
-
-     
 
       <Particles className={styles.particles} />
     </div>

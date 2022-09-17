@@ -8,9 +8,10 @@ HEADER
 .header {
   width: 100vw;
   height: 100px;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
+  color: #000;
 }
 
 .logo {
@@ -34,19 +35,20 @@ HEADER
   border-width: 3px;
   border-color: transparent;
   background: transparent;
+  color: #000;
 }
 
 .navButtons button:hover {
   cursor: pointer;
-  color: #2406ad;
+  color: #D1E8E2;
   transition: 200ms linear;
 
-  border-bottom: 3px solid #000 ;
+  border-bottom: 3px solid #116466 ;
 }
 
 
 
-.neon_button {
+/* .neon_button {
   font-size: 1.5rem;
   margin-left: 25px;
   margin-right: 25px;
@@ -68,7 +70,7 @@ HEADER
   box-shadow: inset 0 0 0.5em 0 hsl(317 100% 54%), 0 0 0.5em 0 hsl(317 100% 54%);
 
   position: relative;
-}
+} */
 
 /* .neon_button::before {
   pointer-events: none;
@@ -85,7 +87,7 @@ HEADER
   opacity: 0.7;
 } */
 
-.neon_button::after {
+/* .neon_button::after {
   content: "";
   position: absolute;
   top: 0;
@@ -94,7 +96,7 @@ HEADER
   right: 0;
   box-shadow: 0 0 2em 0.5em hsl(317 100% 54%);
   opacity: 0;
-  /* background-color: hsl(317 100% 54%); */
+  background-color: hsl(317 100% 54%);
   z-index: -1;
   transition: opacity 100ms linear;
 }
@@ -110,7 +112,7 @@ HEADER
 
 .neon_button:hover::after {
   opacity: 0;
-}
+} */
 
 /* .neon-button:hover {
     color: hsl(323 21% 16%);
@@ -157,16 +159,18 @@ BODY
   height: 100%;
   min-height: 100vh;
   position: fixed;
+ 
 }
 
 .nameText {
   font-size: 80px;
   width: 45vw;
   margin-top: 15vh;
+  color: #116466;
 }
 
 .nameText_Name {
-  color: #ff9822;
+  color: #FFCB9A;
 }
 
 .animatedText {
@@ -174,20 +178,21 @@ BODY
   width: 40vw;
   margin-top: 50px;
   margin-bottom: 25px;
+  color: #116466;
 }
 
 .aboutMeButton {
   width: 150px;
   height: 50px;
-  background-color: #2406ad;
-  color: #ffffff;
+  background-color: #FFCB9A;
+  color: #D1E8E2;
   border-radius: 25px;
   border-width: 0px;
   font-size: 20px;
 }
 
 .aboutMeButton:hover {
-  background-color: #200598;
+  background-color: #D9B08C;
   cursor: pointer;
 }
 
@@ -201,8 +206,8 @@ BODY
 .socials button {
   width: 60px;
   height: 60px;
-  color: #ff0000;
-  background-color: #000;
+  color: #D1E8E2;
+  background-color: #D1E8E2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,9 +226,10 @@ BODY
 .projects {
   width: 100vw;
   min-height: 100vh;
-  background-color: #4A2FBD;
+  background-color: transparent;
   text-align: center;
-  padding: 20px;
+  padding: 100px;
+  color: #fff;
 }
 
 .projects h1 {
@@ -236,23 +242,31 @@ BODY
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgba(50, 50, 50, .7);
+  border-radius: 50px;
 }
 
 .projects span span {
   width: 400px;
-  height: 300px;
-  margin: 20px;
+  height: 200px;
+  margin: 50px;
   padding: 10px;
   display: inline-block;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   transition: all 0.25s ease-in-out;
 }
 
+.projects_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .projects span span:hover {
-  color:#000;
+  color:#fff;
   
   opacity: 1;
 }
@@ -308,8 +322,8 @@ BODY
 .scrollButton {
   width: 40px;
   height: 40px;
-  background-color: #2406ad;
-  color: #ffffff;
+  background-color: #FFCB9A;
+  color: #fff ;
   border-radius: 30px;
   border-width: 0px;
   font-size: 20px;
@@ -337,7 +351,7 @@ BODY
 .contact {
   width: 100vw;
   min-height: 720px;
-  background-color: #00ff00;
+  background-color: transparent;
   padding: 50px;
   justify-content: center;
   text-align: center;
@@ -407,7 +421,7 @@ FOOTER
 
 .footerIcon:hover {
   cursor: pointer;
-  color: #fff;
+  color: #D1E8E2;
 }
 
 /*
@@ -545,9 +559,9 @@ ABOUT
   width: 100vw;
   min-height: 100vh;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #222222;
   padding: 50px;
-  color: #171E27;
+  color: #D1E8E2;
 }
 
 .sectionTitle{
@@ -570,7 +584,7 @@ ABOUT
   margin-bottom: 50px;
   flex-wrap: wrap;
   text-align: center;
-  background-color: #ff0000;
+  background-color: #222222;
   border-radius: 50px;
 
 }
@@ -585,7 +599,7 @@ ABOUT
   align-content: center;
   text-align: center;
   padding: 25px;
-  background-color: #00ff00;
+  background-color: #116466;
   border-radius: 20px;
 }
 

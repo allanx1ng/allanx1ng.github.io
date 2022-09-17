@@ -28,13 +28,11 @@ export default function ProjectsPage() {
 
 
                             </Link>
-                            <p>
+
+                            <p className={styles.projects_name}>
                                 <Link href={'./projects/' + project.name}>
                                     <a>
-                                        <h2>
-                                            {project.name}
-                                        </h2>
-
+                                        {project.name}
                                     </a>
                                 </Link>
                             </p>
