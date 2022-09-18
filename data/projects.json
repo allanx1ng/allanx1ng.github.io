@@ -1,36 +1,9 @@
 [
     {
-        "name": "project 1",
-        "description": "deez",
-        "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "2000-01 to 2010-01",
-        "image": ""
-
-    },
-
-    {
-        "name": "project 2",
-        "description": "deez",
-        "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "2000-01 to 2010-01",
-        "image": ""
-
-    },
-
-    {
-        "name": "Roblox Game Development Contracting",
+        "name": "Roblox Game Development Contractor",
         "description": "contract testing",
         "links": "https://www.roblox.com/games/8371862873/contract-testing",
-        "date": "2000-01 to 2010-01",
-        "image": ""
-
-    },
-
-    {
-        "name": "Super Galaxy Jump Obby",
-        "description": "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "2000-01 to 2010-01",
+        "date": "Dec 2021 - Feb 2022",
         "image": ""
 
     },
@@ -38,15 +11,15 @@
         "name": "Super Galaxy Jump Obby",
         "description": "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "2000-01 to 2010-01",
+        "date": "May 2020 - August 2020",
         "image": ""
 
     },
     {
-        "name": "Super Galaxy Jump Obby",
-        "description": "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
+        "name": "Personal Website",
+        "description": "Personal website showcasing my software development portfolio",
         "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "2000-01 to 2010-01",
+        "date": "Aug 2022 - Sept 2022",
         "image": ""
 
     }

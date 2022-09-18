@@ -24,7 +24,7 @@ export default function ProjectsPage() {
 
                             <Link href={'./projects/' + project.name}>
 
-                                <img src='/rectangle2.png' width={400} />
+                                <img src='/rectangle2.png' width={600} />
 
 
                             </Link>
