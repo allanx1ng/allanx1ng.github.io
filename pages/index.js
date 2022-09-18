@@ -30,7 +30,7 @@ import { Icon } from '@iconify/react'
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <Header />
       <Head>
         <title>Allan Xing 🚀🌙</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -51,8 +51,11 @@ export default function Home() {
             Software Developer
           </div>
           <button className={styles.aboutMeButton}>
-            About Me{' '}
-            <Icon icon="akar-icons:person"/>
+            <a href='#about'>
+              About Me{' '}
+            </a>
+
+            <Icon icon="akar-icons:person" />
           </button>
 
           <div className={styles.socials}>

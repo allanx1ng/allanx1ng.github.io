@@ -345,7 +345,7 @@ BODY
 .scrollButton {
   width: 40px;
   height: 40px;
-  background-color: #2a93d5;
+  background-color: #ff9d5c;
   color: #fff ;
   border-radius: 30px;
   border-width: 0px;
@@ -363,7 +363,7 @@ BODY
 }
 
 .scrollButton:hover {
-  background-color: #125488;
+  background-color: #ff8b3d;
   cursor: pointer;
 }
 
