@@ -250,10 +250,12 @@ BODY
   text-align: center;
   padding: 100px;
   color: #fff;
+  font-size: 20px;
 }
 
 .projects h1 {
   margin: 50px;
+  font-size: 40px;
 }
 
 .projects span {
@@ -264,8 +266,8 @@ BODY
   justify-content: center;
   background-color: rgba(32, 32, 32, 0);
   border-radius: 50px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .projects span span {
@@ -383,13 +385,14 @@ BODY
 .contact h1 {
   margin: 50px;
   width: 100%;
+  color: #fff;
 }
 
 .contact div {
   min-width: 400px;
   width: 800px;
   height: 600px;
-  background-color: #fff;
+  background-color: #d1ebff;
   margin: 50px;
   display: flex;
   align-self: center;
@@ -600,6 +603,7 @@ ABOUT
 .aboutpage h1 {
   margin: 50px;
   text-align: center;
+  font-size: 40px;
 }
 
 

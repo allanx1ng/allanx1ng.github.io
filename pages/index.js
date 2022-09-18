@@ -42,16 +42,16 @@ export default function Home() {
 
         <div className={styles.intro} id='intro'>
           <div className={styles.nameText}>
-            Hello World{' '}
+            Hello World, I'm{' '}
             <div className={styles.nameText_Name}>
               hello world
             </div>
           </div>
           <div className={styles.animatedText}>
-            hello world
+            Software Developer
           </div>
           <button className={styles.aboutMeButton}>
-            World{' '}
+            About Me{' '}
             <Icon icon="akar-icons:person"/>
           </button>
 

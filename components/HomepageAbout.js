@@ -8,7 +8,7 @@ export default function AboutPage() {
 
                 <span>
                     <h1>
-                        About me
+                        - About me -
                     </h1>
                     <p>
                         My name is Allan Xing and I'm currently in my second year of studying computer science at UBC.
