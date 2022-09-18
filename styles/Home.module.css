@@ -1,3 +1,12 @@
+/* 
+COLORS;
+blue1; d1ebff
+blue2; 37caec
+blue3; 2a93d5
+blue4; 125488
+*/
+
+
 
 /* 
 
@@ -40,10 +49,10 @@ HEADER
 
 .navButtons button:hover {
   cursor: pointer;
-  color: #D1E8E2;
+  color: #d1ebff;
   transition: 200ms linear;
 
-  border-bottom: 3px solid #116466 ;
+  border-bottom: 3px solid #125488 ;
 }
 
 
@@ -166,11 +175,11 @@ BODY
   font-size: 80px;
   width: 45vw;
   margin-top: 15vh;
-  color: #116466;
+  color: #125488;
 }
 
 .nameText_Name {
-  color: #FFCB9A;
+  color: #37caec;
 }
 
 .animatedText {
@@ -178,21 +187,21 @@ BODY
   width: 40vw;
   margin-top: 50px;
   margin-bottom: 25px;
-  color: #116466;
+  color: #125488;
 }
 
 .aboutMeButton {
   width: 150px;
   height: 50px;
-  background-color: #FFCB9A;
-  color: #D1E8E2;
+  background-color: #2a93d5;
+  color: #d1ebff;
   border-radius: 25px;
   border-width: 0px;
   font-size: 20px;
 }
 
 .aboutMeButton:hover {
-  background-color: #D9B08C;
+  background-color: #125488;
   cursor: pointer;
 }
 
@@ -242,7 +251,7 @@ BODY
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(50, 50, 50, .7);
+  background-color: rgba(32, 32, 32, .7);
   border-radius: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -324,7 +333,7 @@ BODY
 .scrollButton {
   width: 40px;
   height: 40px;
-  background-color: #FFCB9A;
+  background-color: #2a93d5;
   color: #fff ;
   border-radius: 30px;
   border-width: 0px;
@@ -342,7 +351,7 @@ BODY
 }
 
 .scrollButton:hover {
-  background-color: #200598;
+  background-color: #125488;
   cursor: pointer;
 }
 
@@ -388,7 +397,7 @@ FOOTER
 .footer {
   width: 100vw;
   height: 100px;
-  background-color: #171E27;
+  background-color: #125488;
   margin-bottom: 0px;
   display: flex;
   align-items: center;
@@ -563,7 +572,7 @@ ABOUT
   border-radius: 5px;
   background-color: #222222;
   padding: 50px;
-  color: #D1E8E2;
+  color: #fff;
 }
 
 .sectionTitle{
@@ -601,7 +610,7 @@ ABOUT
   align-content: center;
   text-align: center;
   padding: 25px;
-  background-color: #116466;
+  background-image: linear-gradient(-45deg, #125488, #2a93d5);
   border-radius: 20px;
 }
 
