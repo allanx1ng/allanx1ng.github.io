@@ -1,6 +1,5 @@
 import styles from '../styles/Home.module.css'
 import App from './_app'
-import Head from 'next/head'
 
 import Header from '../components/Header'
 import Projects from "../components/HomepageProjects"
@@ -31,13 +30,6 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <Head>
-        <title>Allan Xing 🚀🌙</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
-
-
-
       <div className={styles.body}>
 
         <div className={styles.intro} id='intro'>
