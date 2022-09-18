@@ -215,8 +215,8 @@ BODY
 .socials button {
   width: 60px;
   height: 60px;
-  color: #D1E8E2;
-  background-color: #D1E8E2;
+  color: #d1ebff;
+  background-color: #d1ebff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -226,7 +226,7 @@ BODY
 }
 
 .socials button:hover {
-  color: #666;
+  color: #d1ebff;
 }
 
 
@@ -251,7 +251,7 @@ BODY
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgba(32, 32, 32, .7);
+  background-color: rgba(32, 32, 32, 0);
   border-radius: 50px;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -300,24 +300,22 @@ BODY
 
 .about {
   min-width: 100vw;
-  min-height: 100vh;
-  padding: 100px;
+  min-height: 80vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  
+  color: #fff;
 }
 
 .about_box {
   width: 800px;
   height: 500px;
   text-align: center;
-  background-color: #fff;
+  background-color: transparent;
   padding: 20px;
   display: flex;
   text-align: left;
-  border-width: 10px;
+  border-width: 0px;
   border-color: #ff9822;
   border-radius: 50px;
   border-style: solid;
@@ -402,7 +400,7 @@ FOOTER
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #92dcff;
+  color: #d1ebff;
 }
 
 .footerButton {
@@ -419,7 +417,7 @@ FOOTER
 }
 
 .footerButton:hover {
-  background-color: #ccc;
+  background-color: #37caec;
   cursor: pointer;
 }
 
@@ -432,7 +430,7 @@ FOOTER
 
 .footerIcon:hover {
   cursor: pointer;
-  color: #D1E8E2;
+  color: #37caec;
 }
 
 /*
@@ -570,7 +568,7 @@ ABOUT
   width: 100vw;
   min-height: 100vh;
   border-radius: 5px;
-  background-color: #222222;
+  background-color: transparent;
   padding: 50px;
   color: #fff;
 }
@@ -592,10 +590,12 @@ ABOUT
   width: 100%;
   justify-content: center;
   padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 50px;
   flex-wrap: wrap;
   text-align: center;
-  background-color: #222222;
+  background-color: rgba(32, 32, 32, 0);
   border-radius: 50px;
 
 }
