@@ -31,7 +31,7 @@ const Skills = () => {
 
         <div className={styles.aboutpage} id='skills'>
             <h1>
-                Skills
+                - Skills -
             </h1>
             <h2 className={styles.sectionTitle}>
                 Technical Skills

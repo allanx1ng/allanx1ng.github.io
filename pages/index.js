@@ -14,6 +14,7 @@ import Contact from '../components/Contact'
 
 import ProjectCard from "../components/ProjectCard"
 import ProjectsFile from '../data/projects.json'
+import { Icon } from '@iconify/react'
 
 // import dynamic from "next/dynamic";
 
@@ -39,7 +40,7 @@ export default function Home() {
 
       <div className={styles.body}>
 
-        <div className={styles.intro} id='header'>
+        <div className={styles.intro} id='intro'>
           <div className={styles.nameText}>
             Hello World{' '}
             <div className={styles.nameText_Name}>
@@ -50,7 +51,8 @@ export default function Home() {
             hello world
           </div>
           <button className={styles.aboutMeButton}>
-            hello world
+            World{' '}
+            <Icon icon="akar-icons:person"/>
           </button>
 
           <div className={styles.socials}>

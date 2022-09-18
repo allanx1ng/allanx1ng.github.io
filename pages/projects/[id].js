@@ -18,7 +18,7 @@ export default function Project() {
                 {projects.map((project) => (
                     (project.name == projectid ? (
 
-                        <Projects title={project.name} date={project.date} link={project.links} description={project.description} image={project.image} />
+                        <Projects title={project.name} date={project.date} link={project.links} description={project.description} image={project.fullImage} />
 
                     ) : (<></>))
 

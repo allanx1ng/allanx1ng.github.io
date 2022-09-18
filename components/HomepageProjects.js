@@ -8,7 +8,7 @@ export default function ProjectsPage() {
         <>
             <div className={styles.projects} id='projects'>
                 <h1>
-                    Projects
+                    - Projects -
                 </h1>
                 <p>
                     Click on a project to learn more!
@@ -24,7 +24,7 @@ export default function ProjectsPage() {
 
                             <Link href={'./projects/' + project.name}>
 
-                                <img src='/rectangle2.png' width={600} />
+                                <img src={project.homeImage} width={600} />
 
 
                             </Link>

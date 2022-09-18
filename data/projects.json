@@ -1,10 +1,20 @@
 [
     {
+        "name": "Personal Website",
+        "description": "Personal website showcasing my software development portfolio",
+        "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
+        "date": "Aug 2022 - Sept 2022",
+        "homeImage": "/website-homescreen.png",
+        "fullImage": "/website-full.png"
+
+    },
+    {
         "name": "Roblox Game Development Contractor",
         "description": "contract testing",
         "links": "https://www.roblox.com/games/8371862873/contract-testing",
         "date": "Dec 2021 - Feb 2022",
-        "image": ""
+        "homeImage": "/Roblox1.png",
+        "fullImage": "/Roblox1.png"
 
     },
     {
@@ -12,16 +22,8 @@
         "description": "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "date": "May 2020 - August 2020",
-        "image": ""
-
-    },
-    {
-        "name": "Personal Website",
-        "description": "Personal website showcasing my software development portfolio",
-        "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
-        "date": "Aug 2022 - Sept 2022",
-        "image": ""
+        "homeImage": "/Roblox2.png",
+        "fullImage": "/Roblox2.png"
 
     }
-    
 ]

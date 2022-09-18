@@ -28,7 +28,7 @@ export default function Projects({ title, date, link, description, image }) {
             <p>
                 {description}
             </p>
-            <Image src={image} alt='Image unavailable' />
+            <img src={image} alt='Image unavailable' width={100}/>
         </div>
     )
 }

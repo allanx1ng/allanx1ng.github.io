@@ -40,13 +40,18 @@ const Header = ({ page }) => {
                     </h1>
                     <div className={styles.navButtons}>
                         <button>
-                            <Link href='/'>
+                            <Link href='#intro'>
                                 Home
                             </Link>
                         </button>
                         <button >
                             <Link href='#about'>
                                 About
+                            </Link>
+                        </button>
+                        <button >
+                            <Link href='#skills'>
+                                Skills
                             </Link>
                         </button>
                         <button>

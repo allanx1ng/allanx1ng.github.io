@@ -4,6 +4,14 @@ blue1; d1ebff
 blue2; 37caec
 blue3; 2a93d5
 blue4; 125488
+
+
+
+orange1 #ff6600, 
+orange2 #ff781f,
+orange3 #ff8b3d,
+orange4 #ff9d5c,
+orange5 #ffaf7a
 */
 
 
@@ -20,20 +28,22 @@ HEADER
   background-color: #ffffff;
   display: flex;
   align-items: center;
-  color: #000;
+  justify-content: right;
+  color: #125488;
 }
 
 .logo {
   margin-left: 50px;
+  left: 50px;
   position: absolute;
 
 }
 
 .navButtons {
   display: flex;
-  justify-content: flex-start;
-  margin-left: 50vw;
-  transform: translateX(-50%);
+  justify-content: center;
+  margin-right: 100px;
+  
 }
 
 .navButtons button {
@@ -44,7 +54,7 @@ HEADER
   border-width: 3px;
   border-color: transparent;
   background: transparent;
-  color: #000;
+  color: #125488;
 }
 
 .navButtons button:hover {
@@ -179,7 +189,7 @@ BODY
 }
 
 .nameText_Name {
-  color: #37caec;
+  color: #ff8b3d;
 }
 
 .animatedText {
@@ -187,7 +197,7 @@ BODY
   width: 40vw;
   margin-top: 50px;
   margin-bottom: 25px;
-  color: #125488;
+  color: #d1ebff;
 }
 
 .aboutMeButton {
@@ -195,13 +205,14 @@ BODY
   height: 50px;
   background-color: #2a93d5;
   color: #d1ebff;
+  font-weight: bold;
   border-radius: 25px;
   border-width: 0px;
   font-size: 20px;
 }
 
 .aboutMeButton:hover {
-  background-color: #125488;
+  background-color: #37caec;
   cursor: pointer;
 }
 
@@ -259,7 +270,7 @@ BODY
 
 .projects span span {
   width: 600px;
-  height: 300px;
+  height: 400px;
   margin: 50px;
   padding: 10px;
   display: inline-block;
@@ -300,16 +311,18 @@ BODY
 
 .about {
   min-width: 100vw;
-  min-height: 80vh;
+  min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   color: #fff;
 }
 
 .about_box {
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 600px;
+  font-size: 20px;
   text-align: center;
   background-color: transparent;
   padding: 20px;
@@ -322,9 +335,8 @@ BODY
 }
 
 .about_box span {
-  width: 400px;
+  width: 500px;
   height: 500px;
-
   margin: 20px;
 }
 
@@ -426,6 +438,7 @@ FOOTER
   margin-right: 10px;
   width: 40px;
   height: 40px;
+  color: #d1ebff;
 }
 
 .footerIcon:hover {
@@ -446,10 +459,15 @@ PROJECT
   margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 50px;
-  background-color: #222222;
+  background-color: rgba(31, 31, 31, .7);
   padding: 50px;
   color: #fff;
 
+}
+
+.project img {
+  min-width: 100%;
+  
 }
 
 .proj_container {
