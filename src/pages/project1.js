@@ -6,7 +6,7 @@ export default function Project() {
     const project = {
         name: "Super Galaxy Jump Obby",
         page: "/#/project1",
-        description: "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
+        description: "me and the bois made a game on roblox.",
         links: "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         date: "May 2020 - August 2020",
         homeImage: "/Roblox2.png",
