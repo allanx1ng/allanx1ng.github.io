@@ -33,7 +33,7 @@ export default function Home() {
           <div className={styles.nameText}>
             Hello World, I{"'"}m{' '}
             <div className={styles.nameText_Name}>
-              hello world
+              Allan Xing
             </div>
           </div>
           <div className={styles.animatedText}>
