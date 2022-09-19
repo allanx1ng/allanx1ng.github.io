@@ -21,33 +21,33 @@ export default function ProjectsPage() {
                 <span>
 
                     <span>
-                        <a href='/project3' className='projects-img'>
+                        <a href='/#/project3' className='projects-img'>
                             <img src="/website-homescreen.png" width={600} />
                         </a>
                         <p className='projects_name'>
-                            <a href='/project3'>
+                            <a href='/#/project3'>
                                 Personal Website
                             </a>
                         </p>
                     </span>
 
                     <span>
-                        <a href='/project2' className='projects-img'>
+                        <a href='/#/project2' className='projects-img'>
                             <img src="/Roblox1.png" width={600} />
                         </a>
                         <p className='projects_name'>
-                            <a href='/project2'>
+                            <a href='/#/project2'>
                                 Game Development Contractor
                             </a>
                         </p>
                     </span>
 
                     <span>
-                        <a href='/project1' className='projects-img'>
+                        <a href='/#/project1' className='projects-img'>
                             <img src="/Roblox2.png" width={600} />
                         </a>
                         <p className='projects_name'>
-                            <a href='/project1'>
+                            <a href='/#/project1'>
                                 Super Galaxy Jump Obby
                             </a>
                         </p>
