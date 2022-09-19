@@ -5,7 +5,7 @@ import Projects from '../components/Project';
 export default function Project() {
     const project = {
         name: "Game Development Contractor",
-        page: "/project2",
+        page: "/#/project2",
         description: "contract testing",
         links: "https://www.roblox.com/games/8371862873/contract-testing",
         date: "Dec 2021 - Feb 2022",

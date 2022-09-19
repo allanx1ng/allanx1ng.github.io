@@ -1,10 +1,7 @@
-import '../App.css';
-import { useState, useEffect } from 'react';
 import { Icon } from '@iconify/react';
+import '../App.css';
 
-
-
-const ScrollButton = ({ icon, width, height }) => {
+const ScrollButton = ({ text, destination, style }) => {
 
     // const [visible, setVisible] = useState(false)
 
@@ -19,9 +16,7 @@ const ScrollButton = ({ icon, width, height }) => {
     // };
 
     const scrollToTop = () => {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0;
-       window.scrollTo(0,0)
+        document.getElementById(destination).scrollIntoView()
 
         console.log('scrolled')
     };
@@ -29,14 +24,33 @@ const ScrollButton = ({ icon, width, height }) => {
     // window.addEventListener('scroll', toggleVisible);
 
 
-    return (
-        <>
-            <button className='scrollButton' onClick={scrollToTop}>
-                <Icon icon={icon} width={width} height={height} />
-            </button>
-        </>
+    switch (style) {
+        case "aboutMeButton":
+            return (
 
-    )
+                <>
+                    <button className={style} onClick={scrollToTop}>
+                        {text}
+                        <Icon icon="akar-icons:person" />
+                    </button>
+                </>
+
+            )
+
+
+        default:
+
+            return (
+
+                <>
+                    <button className='navbuttons button' onClick={scrollToTop}>
+                        {text}
+                    </button>
+                </>
+
+            )
+    }
+
 }
 
 export default ScrollButton

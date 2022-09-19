@@ -5,15 +5,13 @@ import Header from '../components/Header'
 import Projects from "../components/Projects"
 import About from '../components/About'
 import Particles from '../components/Particles';
-import ScrollButton from '../components/ScrollButton'
+import ScrollTop from '../components/ScrollTop'
 import Socials from '../components/Socials'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
-import Footer from '../components/Footer';
 
 import { Icon } from '@iconify/react'
-
-import Main from '../components/Main';
+import ScrollButton from '../components/ScrollButton';
 
 const HomePage = () => {
   return (
@@ -33,13 +31,7 @@ const HomePage = () => {
             Software Developer
 
           </div>
-          <button className='aboutMeButton'>
-            <a href='#about'>
-              About Me{' '}
-            </a>
-
-            <Icon icon="akar-icons:person" />
-          </button>
+          <ScrollButton style={'aboutMeButton'} text={'About Me '} destination={'about'}/>
 
           <div className='socials'>
             <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
@@ -57,7 +49,7 @@ const HomePage = () => {
         </div>
 
       </div>
-      <ScrollButton icon={"ep:arrow-up-bold"} width={30} height={30} />
+      <ScrollTop icon={"ep:arrow-up-bold"} width={30} height={30} />
 
       <About />
 

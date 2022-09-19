@@ -1,14 +1,19 @@
 import '../App.css';
 
+import ScrollButton from './ScrollButton';
+
+
+
 const Header = ({ page }) => {
 
     switch (page) {
         case "project":
 
+
             return (
 
                 <div className='header' id='home'>
-                    
+
                     <h1 className='logo'>
                         <a href='/'>
                             Hello World
@@ -26,41 +31,22 @@ const Header = ({ page }) => {
 
         default:
 
+
+
             return (
 
                 <div className='header' id='home'>
-        
+
                     <h1 className='logo'>
                         <a href='/'>
                             Hello World
                         </a>
                     </h1>
                     <div className='navButtons'>
-                        <button>
-                            <a href='#intro'>
-                                Home
-                            </a>
-                        </button>
-                        <button >
-                            <a href='#about'>
-                                About
-                            </a>
-                        </button>
-                        <button >
-                            <a href='#skills'>
-                                Skills
-                            </a>
-                        </button>
-                        <button>
-                            <a href='#projects'>
-                                Projects
-                            </a>
-                        </button>
-                        <button>
-                            <a href='#contact'>
-                                Contact
-                            </a>
-                        </button>
+                        <ScrollButton text={'About'} destination={'about'}/>
+                        <ScrollButton text={'Skills'} destination={'skills'}/>
+                        <ScrollButton text={'Projects'} destination={'projects'}/>
+                        <ScrollButton text={'Contact'} destination={'contact'}/>
                     </div>
                 </div>
             )
