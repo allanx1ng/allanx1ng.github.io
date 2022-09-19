@@ -1,6 +1,7 @@
 [
     {
         "name": "Personal Website",
+        "page": "/project3",
         "description": "Personal website showcasing my software development portfolio",
         "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "date": "Aug 2022 - Sept 2022",
@@ -9,7 +10,8 @@
 
     },
     {
-        "name": "Roblox Game Development Contractor",
+        "name": "Game Development Contractor",
+        "page": "/project2",
         "description": "contract testing",
         "links": "https://www.roblox.com/games/8371862873/contract-testing",
         "date": "Dec 2021 - Feb 2022",
@@ -19,6 +21,7 @@
     },
     {
         "name": "Super Galaxy Jump Obby",
+        "page": "/project1",
         "description": "me and the bois made a game on roblox. Play it today at: https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "links": "https://www.roblox.com/games/5479060116/NEW-SUPER-GALAXY-JUMP-Obby",
         "date": "May 2020 - August 2020",

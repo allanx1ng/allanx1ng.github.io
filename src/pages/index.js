@@ -1,45 +1,44 @@
-import styles from '../styles/Home.module.css'
-import App from './_app'
+import logo from '../logo.svg';
+import '../App.css';
 
 import Header from '../components/Header'
-import Projects from "../components/HomepageProjects"
-import About from '../components/HomepageAbout'
+import Projects from "../components/Projects"
+import About from '../components/About'
 import Particles from '../components/Particles';
 import ScrollButton from '../components/ScrollButton'
 import Socials from '../components/Socials'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
+import Footer from '../components/Footer';
 
 import { Icon } from '@iconify/react'
 
-// import dynamic from "next/dynamic";
+import Main from '../components/Main';
 
-// const ScrollButton = dynamic(
-//   () => {
-//     return import("../components/ScrollButton");
-//   },
-//   { ssr: false }
-// );
-
-
-
-export default function Home() {
+const HomePage = () => {
   return (
     <div>
-      <Header />
-      <div className={styles.body}>
+      <head>
+        <title>Allan Xing 🚀🌙</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
-        <div className={styles.intro} id='intro'>
-          <div className={styles.nameText}>
+        <link rel="icon" type='image/png' href="/react.png" />
+      </head>
+      <Header />
+      <div className='body'>
+
+        <div className='intro' id='intro'>
+          <div className='nameText'>
             Hello World, I{"'"}m{' '}
-            <div className={styles.nameText_Name}>
+            <div className='nameText_Name'>
               Allan Xing
             </div>
           </div>
-          <div className={styles.animatedText}>
+          <div className='animatedText'>
             Software Developer
+
           </div>
-          <button className={styles.aboutMeButton}>
+          <button className='aboutMeButton'>
             <a href='#about'>
               About Me{' '}
             </a>
@@ -47,7 +46,7 @@ export default function Home() {
             <Icon icon="akar-icons:person" />
           </button>
 
-          <div className={styles.socials}>
+          <div className='socials'>
             <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
             <Socials link='https://www.linkedin.com/in/allan-xing-53b853236/' icon="akar-icons:linkedin-fill" />
             <Socials link='https://github.com/allanx1ng' icon="akar-icons:instagram-fill" />
@@ -58,7 +57,7 @@ export default function Home() {
 
         </div>
 
-        <div className={styles.pfp}>
+        <div className='pfp'>
           <img src='/pfp.png' width={500} />
         </div>
 
@@ -73,8 +72,11 @@ export default function Home() {
 
       <Contact />
 
-      <Particles className={styles.particles} />
+      <Particles className='particles' />
+
     </div>
 
   )
 }
+
+export default HomePage;

@@ -1,10 +1,9 @@
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import '../App.css';
 
 export default function AboutPage() {
     return (
-        <div className={styles.about} id='about' >
-            <span className={styles.about_box}>
+        <div className='about' id='about' >
+            <span className='about_box'>
 
                 <span>
                     <h1>

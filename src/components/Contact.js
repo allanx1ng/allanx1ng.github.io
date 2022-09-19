@@ -1,8 +1,8 @@
-import styles from '../styles/Home.module.css'
+import '../App.css';
 
 export default function Contact() {
     return (
-        <div className={styles.contact} id='contact'>
+        <div className='contact' id='contact'>
             <h1>
                 Coming Soon!
             </h1>
