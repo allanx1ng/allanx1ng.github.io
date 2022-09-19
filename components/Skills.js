@@ -38,7 +38,7 @@ const Skills = () => {
             </h2>
             <div className={styles.skills}>
                 {technicalSkills.map((skill) => (
-                    <div className={styles.skill}>
+                    <div className={styles.skill} key={'key1'}>
 
                         <Icon icon={skill.icon} height="50" />
                         <br />
@@ -57,7 +57,7 @@ const Skills = () => {
             </h2>
             <div className={styles.skills}>
                 {otherSkills.map((skill) => (
-                    <div className={styles.skill}>
+                    <div className={styles.skill} key={'key1'}>
 
                         <Icon icon={skill.icon} height="50" />
                         <br />
