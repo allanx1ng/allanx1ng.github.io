@@ -1,11 +1,10 @@
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import '../App.css';
 import { Icon } from '@iconify/react';
 import Socials from './Socials';
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className='footer'>
 
             <Socials link='https://github.com/allanx1ng' icon="icon-park-outline:github-one" />
             <Socials link='https://www.linkedin.com/in/allan-xing-53b853236/' icon="akar-icons:linkedin-fill" />

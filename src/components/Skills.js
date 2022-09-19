@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react"
-import styles from '../styles/Home.module.css'
+import '../App.css';
 
 
 const Skills = () => {
@@ -29,16 +29,16 @@ const Skills = () => {
 
     return (
 
-        <div className={styles.aboutpage} id='skills'>
+        <div className='aboutpage' id='skills'>
             <h1>
                 - Skills -
             </h1>
-            <h2 className={styles.sectionTitle}>
+            <h2 className='sectionTitle'>
                 Technical Skills
             </h2>
-            <div className={styles.skills}>
+            <div className='skills'>
                 {technicalSkills.map((skill) => (
-                    <div className={styles.skill} key={'key1'}>
+                    <div className='skill' key={'key1'}>
 
                         <Icon icon={skill.icon} height="50" />
                         <br />
@@ -52,12 +52,12 @@ const Skills = () => {
             </div>
 
 
-            <h2 className={styles.sectionTitle}>
+            <h2 className='sectionTitle'>
                 Other Skills
             </h2>
-            <div className={styles.skills}>
+            <div className='skills'>
                 {otherSkills.map((skill) => (
-                    <div className={styles.skill} key={'key1'}>
+                    <div className='skill' key={'key1'}>
 
                         <Icon icon={skill.icon} height="50" />
                         <br />
