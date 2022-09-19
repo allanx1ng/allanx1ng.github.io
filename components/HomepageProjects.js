@@ -20,7 +20,7 @@ export default function ProjectsPage() {
                 <span>
 
                     {ProjectsFile.map((project) => (
-                        <span>
+                        <span key={'key1'}>
 
                             <Link href={'./projects/' + project.name}>
 

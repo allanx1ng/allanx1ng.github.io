@@ -10,9 +10,6 @@ import Socials from '../components/Socials'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 
-
-import ProjectCard from "../components/ProjectCard"
-import ProjectsFile from '../data/projects.json'
 import { Icon } from '@iconify/react'
 
 // import dynamic from "next/dynamic";
@@ -34,7 +31,7 @@ export default function Home() {
 
         <div className={styles.intro} id='intro'>
           <div className={styles.nameText}>
-            Hello World, I'm{' '}
+            Hello World, I{"'"}m{' '}
             <div className={styles.nameText_Name}>
               hello world
             </div>
