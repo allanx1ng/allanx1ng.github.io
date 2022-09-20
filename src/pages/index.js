@@ -10,6 +10,8 @@ import Socials from '../components/Socials'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 
+import Typed from 'react-typed';
+
 import { Icon } from '@iconify/react'
 import ScrollButton from '../components/ScrollButton';
 
@@ -27,8 +29,20 @@ const HomePage = () => {
               Allan Xing
             </div>
           </div>
+
           <div className='animatedText'>
-            Software Developer
+            <Typed
+              strings={[
+                "Software Developer",
+                "UBC Student",
+                "Second Year CS Major"
+              ]}
+              typeSpeed={80}
+              backSpeed={50}
+              startDelay={100}
+              backDelay={1500}
+              loop
+            />
 
           </div>
           <ScrollButton style={'aboutMeButton'} text={'About Me '} destination={'about'} />
