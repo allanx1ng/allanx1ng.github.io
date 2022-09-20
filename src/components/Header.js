@@ -16,7 +16,7 @@ const Header = ({ page }) => {
 
                     <h1 className='logo'>
                         <a href='/'>
-                            Hello World
+                            Allan Xing
                         </a>
                     </h1>
                     <div className='navButtons'>
@@ -39,7 +39,7 @@ const Header = ({ page }) => {
 
                     <h1 className='logo'>
                         <a href='/'>
-                            Hello World
+                            Allan Xing
                         </a>
                     </h1>
                     <div className='navButtons'>
