@@ -6,7 +6,7 @@ export default function Project() {
     const project = {
         name: "Game Development Contractor",
         page: "/#/project2",
-        description: "contract testing",
+        description: "Designed and implemented a full combat system for a client's game using Lua and Roblox Studio.",
         links: "https://www.roblox.com/games/8371862873/contract-testing",
         date: "Dec 2021 - Feb 2022",
         homeImage: "/Roblox1.png",
