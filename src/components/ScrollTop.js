@@ -6,27 +6,12 @@ import { Icon } from '@iconify/react';
 
 const ScrollButton = ({ icon, width, height }) => {
 
-    // const [visible, setVisible] = useState(false)
-
-    // const toggleVisible = () => {
-    //     const scrolled = document.documentElement.scrollTop;
-    //     if (scrolled > 100) {
-    //         setVisible(true)
-    //     }
-    //     else if (scrolled <= 300) {
-    //         setVisible(false)
-    //     }
-    // };
-
     const scrollToTop = () => {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0;
 
         console.log('scrolled')
     };
-
-    // window.addEventListener('scroll', toggleVisible);
-
 
     return (
         <>
