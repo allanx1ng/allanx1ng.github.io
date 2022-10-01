@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const Socials = () => {
     return (
-        <>
+        <div>
             <a target="_blank" href='https://github.com/allanx1ng'>
                 <Icon icon="icon-park-outline:github-one" className='footerIcon' />
 
@@ -24,7 +24,7 @@ const Socials = () => {
                 <Icon icon="ant-design:camera-outlined" className='footerIcon' />
 
             </a> */}
-        </>
+        </div>
 
     )
 }

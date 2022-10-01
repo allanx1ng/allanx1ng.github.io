@@ -47,15 +47,14 @@ const HomePage = () => {
           </div>
           <ScrollButton style={'aboutMeButton'} text={'About Me '} destination={'about'} />
 
-          <div className='socials'>
-            <Socials />
-          </div>
+          
+          <Socials />
 
 
         </div>
 
         <div className='pfp'>
-          <img src='/pfp.png' width={500} />
+          <img src='/pfp.png'/>
         </div>
 
       </div>
