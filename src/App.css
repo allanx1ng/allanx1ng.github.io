@@ -76,6 +76,7 @@ BODY
     min-width: 100vw;
     min-height: 100vh;
     justify-content: center;
+    padding: 20px;
   }
 
   /* .intro {
@@ -645,7 +646,7 @@ MOBILE /////////////////////////////////////////////////////////////////////////
 
   .projects span span {
     width: 90vw;
-    height: 200px;
+    min-height: 200px;
     margin: 5vw;
     margin-bottom: 50px;
     padding: 10px;
@@ -681,6 +682,7 @@ MOBILE /////////////////////////////////////////////////////////////////////////
   }
 
   .projects-img img {
+    max-width: 400px;
     width: 90vw;
   }
 
