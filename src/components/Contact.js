@@ -6,10 +6,10 @@ export default function Contact() {
     return (
         <div className='contact' id='contact'>
             <h1>
-                {"Contact - (not functional yet)"}
+                {"- Contact -"}
             </h1>
             <div>
-                <form className='contact-form' action='../scripts/contact-form.php'>
+                <form className='contact-form' action='https://formsubmit.co/allanxing2003@gmail.com' method='POST'>
                     <a name="contact"></a>
 
                     <label>Name</label>
