@@ -2,17 +2,14 @@ import '../App.css';
 
 export default function Contact() {
 
-    const submit = () => {
-        console.log('submitted')
-    }
-
+ 
     return (
         <div className='contact' id='contact'>
             <h1>
                 {"Contact - (not functional yet)"}
             </h1>
             <div>
-                <form className='contact-form'>
+                <form className='contact-form' action='../scripts/contact-form.php'>
                     <a name="contact"></a>
 
                     <label>Name</label>
@@ -27,7 +24,7 @@ export default function Contact() {
                     <label>Message</label>
                     <textarea class="input-field" name="message" placeholder='Enter Text Here' ></textarea>
 
-                    <button onClick={submit}>Submit</button>
+                    <button type='submit'>Submit</button>
                 </form>
 
             </div>
