@@ -9,7 +9,7 @@ export default function Contact() {
                 {"- Contact -"}
             </h1>
             <div>
-                <form className='contact-form' action='https://formsubmit.co/allanxing2003@gmail.com' method='POST'>
+                <form className='contact-form' action='https://formsubmit.co/a9eac0229844ca5d7f320a6b56b829bb' method='POST'>
                     <a name="contact"></a>
 
                     <label>Name</label>
