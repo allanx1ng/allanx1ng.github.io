@@ -13,7 +13,7 @@ const ScrollButton = ({ text, destination, style }) => {
     switch (style) {
         case "aboutMeButton":
             return (
-
+                
                 <>
                     <button className={style} onClick={scrollToTop}>
                         {text}
