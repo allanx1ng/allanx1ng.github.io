@@ -309,9 +309,6 @@ BODY
     padding: 5px 5px;
     font-weight: bold;
     height: 40px;
-    /* border-color: #125488;
-  border-width: 2px;
-  border-radius: 10px; */
     border: 2px solid #125488;
     border-radius: 10px;
   }
