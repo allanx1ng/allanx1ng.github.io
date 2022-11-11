@@ -14,12 +14,21 @@ export default function ProjectsPage() {
                 </Link> */}
 
         <span>
-          <span>
-            <a href="https://www.allanxing.com/sorting-visualizer/" className="projects-img" target='_blank'>
-              <img src="/sorting-visualizer.png" width={600} alt="sorting-visualizer" />
+          {/* <span>
+            <a href="/#/project4" className="projects-img">
+              <img src="/SortingVisualizer.png" width={600} />
             </a>
             <p className="projects_name">
-              <a href="https://www.allanxing.com/sorting-visualizer/" target='_blank'>Sorting Visualizer</a>
+              <a href="/#/project4">Sorting Visualizer</a>
+            </p>
+          </span> */}
+
+          <span>
+            <a href="https://allanxing.com/sorting-visualizer" target='blank' className="projects-img">
+              <img src="/SortingVisualizer.png" width={600} />
+            </a>
+            <p className="projects_name">
+              <a href="https://allanxing.com/sorting-visualizer" target='blank'>Sorting Visualizer</a>
             </p>
           </span>
 
