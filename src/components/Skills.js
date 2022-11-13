@@ -1,5 +1,6 @@
-import { Icon } from "@iconify/react";
-import "../App.css";
+import { Icon } from "@iconify/react"
+import "../App.css"
+import { useRef, useEffect, useState } from "react"
 
 const Skills = () => {
   const technicalSkills = [
@@ -19,8 +20,8 @@ const Skills = () => {
     { skill: "Unity", icon: "logos:unity" },
     { skill: "Github", icon: "akar-icons:github-fill" },
     { skill: "Solidity", icon: "logos:solidity" },
-  ];
-  
+  ]
+
   const otherSkills = [
     { skill: "Adobe Photoshop", icon: "logos:adobe-photoshop" },
     { skill: "Adobe Lightroom", icon: "logos:adobe-lightroom" },
@@ -28,10 +29,25 @@ const Skills = () => {
     { skill: "Adobe After Effects", icon: "logos:adobe-after-effects" },
     { skill: "Blender", icon: "logos:blender" },
     { skill: "Microsoft Excel", icon: "vscode-icons:file-type-excel" },
-  ];
+  ]
+
+  const myRef = useRef()
+  const [scrollAnimateElementsVisibility, setElementVisibility] =
+    useState(false)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        setElementVisibility(entry.isIntersecting)
+      })
+    })
+    observer.observe(myRef.current)
+  }, [])
 
   return (
-    <div className="aboutpage" id="skills">
+    <div ref={myRef} className={`${"skills-section"} ${
+      scrollAnimateElementsVisibility ? "skills-section-show" : ""
+    }`} id="skills">
       <h1>- Skills -</h1>
       <h2 className="sectionTitle">Technical Skills</h2>
       <div className="skills">
@@ -55,7 +71,7 @@ const Skills = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
