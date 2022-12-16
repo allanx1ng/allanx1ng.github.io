@@ -29,11 +29,11 @@ const Skills = () => {
     { skill: "Adobe After Effects", icon: "logos:adobe-after-effects" },
     { skill: "Blender", icon: "logos:blender" },
     { skill: "Microsoft Excel", icon: "vscode-icons:file-type-excel" },
+    { skill: "Figma", icon: "logos:figma" },
   ]
-
+  
   const myRef = useRef()
-  const [scrollAnimateElementsVisibility, setElementVisibility] =
-    useState(false)
+  const [scrollAnimateElementsVisibility, setElementVisibility] = useState(false)
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -45,9 +45,13 @@ const Skills = () => {
   }, [])
 
   return (
-    <div ref={myRef} className={`${"skills-section"} ${
-      scrollAnimateElementsVisibility ? "skills-section-show" : ""
-    }`} id="skills">
+    <div
+      ref={myRef}
+      className={`${"skills-section"} ${
+        scrollAnimateElementsVisibility ? "skills-section-show" : ""
+      }`}
+      id="skills"
+    >
       <h1>- Skills -</h1>
       <h2 className="sectionTitle">Technical Skills</h2>
       <div className="skills">
