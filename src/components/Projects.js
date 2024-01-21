@@ -9,26 +9,71 @@ export default function ProjectsPage() {
       <div className="projects" id="projects">
         <h1>- Projects -</h1>
         <p>Click on a project to learn more!</p>
+        <ul>
+          <li>
+            <a href="https://github.com/Kevmister331/nwHacks-2024" target="_blank">Leaguify</a>
+          </li>
+          <li>
+            <a href="https://github.com/allanx1ng/Twitter-Clone" target="_blank">Twitter Clone</a>
+          </li>
+          <li>
+            <a href="https://github.com/allanx1ng/GPT-Chatbot" target="_blank">GPT Chatbot</a>
+          </li>
+          <li>
+            <a href="https://github.com/allanx1ng/3DRunnerMobileGame" target="_blank">Block Run</a>
+          </li>
+        </ul>
+
         {/* <Link href="/projects">
 
                 </Link> */}
 
         <span>
           {/* <span>
-            <a href="/#/project4" className="projects-img">
-              <img src="/SortingVisualizer.png" width={600} />
+            <a href="/#/project7" className="projects-img">
+              <img width={600} alt="" />
             </a>
             <p className="projects_name">
-              <a href="/#/project4">Sorting Visualizer</a>
+              <a href="/#/project7">Leaguify</a>
+            </p>
+          </span>
+          <span>
+            <a href="/#/project6" className="projects-img">
+              <img width={600} alt="" />
+            </a>
+            <p className="projects_name">
+              <a href="/#/project6">Twitter Clone</a>
+            </p>
+          </span>
+          <span>
+            <a href="/#/project5" className="projects-img">
+              <img width={600} alt="" />
+            </a>
+            <p className="projects_name">
+              <a href="/#/project5">GPT Chatbot</a>
+            </p>
+          </span>
+          <span>
+            <a href="/#/project4" className="projects-img">
+              <img width={600} alt="" />
+            </a>
+            <p className="projects_name">
+              <a href="/#/project4">Block Run</a>
             </p>
           </span> */}
 
           <span>
-            <a href="https://allanxing.com/sorting-visualizer" target='blank' className="projects-img">
+            <a
+              href="https://allanxing.com/sorting-visualizer"
+              target="blank"
+              className="projects-img"
+            >
               <img src="/SortingVisualizer.png" width={600} />
             </a>
             <p className="projects_name">
-              <a href="https://allanxing.com/sorting-visualizer" target='blank'>Sorting Visualizer</a>
+              <a href="https://allanxing.com/sorting-visualizer" target="blank">
+                Sorting Visualizer
+              </a>
             </p>
           </span>
 

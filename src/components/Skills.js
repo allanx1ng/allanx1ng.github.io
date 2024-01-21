@@ -7,7 +7,9 @@ const Skills = () => {
     { skill: "Java", icon: "logos:java" },
     { skill: "HTML", icon: "logos:html-5" },
     { skill: "CSS", icon: "vscode-icons:file-type-css" },
+    { skill: "Tailwind CSS", icon: "logos:tailwindcss-icon" },
     { skill: "JavaScript", icon: "logos:javascript" },
+    { skill: "TypeScript", icon: "skill-icons:typescript" },
     { skill: "Node.js", icon: "logos:nodejs" },
     { skill: "React", icon: "logos:react" },
     { skill: "Next.js", icon: "logos:nextjs" },
@@ -20,6 +22,10 @@ const Skills = () => {
     { skill: "Unity", icon: "logos:unity" },
     { skill: "Github", icon: "akar-icons:github-fill" },
     { skill: "Solidity", icon: "logos:solidity" },
+    { skill: "SQL", icon: "logos:postgresql" },
+    { skill: "Vue", icon: "logos:vue" },
+    { skill: "Docker", icon: "logos:docker-icon" },
+
   ]
 
   const otherSkills = [
@@ -57,7 +63,7 @@ const Skills = () => {
       <div className="skills">
         {technicalSkills.map((skill) => (
           <div className="skill" key={"key1"}>
-            <Icon icon={skill.icon} height="50" />
+            <Icon icon={skill.icon} height="50"/>
             <br />
             <span>{skill.skill}</span>
           </div>

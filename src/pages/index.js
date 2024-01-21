@@ -30,7 +30,7 @@ const HomePage = () => {
               strings={[
                 "Software Developer",
                 "UBC Student",
-                "Second Year CS Major",
+                "Third Year CS Major",
               ]}
               typeSpeed={80}
               backSpeed={50}
