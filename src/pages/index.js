@@ -49,7 +49,8 @@ const HomePage = () => {
         </div>
 
         <div className="pfp">
-          <img src="/pfp.png" />
+          {/* <img src="/pfp.png" /> */}
+          {/* <div></div> */}
         </div>
       </div>
       <ScrollTop icon={"ep:arrow-up-bold"} width={30} height={30} />

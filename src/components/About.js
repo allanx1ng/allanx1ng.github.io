@@ -5,7 +5,7 @@ export default function AboutPage() {
     <div className="about" id="about">
       <span className="about_box">
        
-          <img src="pfp.png"/>
+          {/* <img src="pfp.png"/> */}
 
           <div>
             <h1>- About me -</h1>

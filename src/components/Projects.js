@@ -11,16 +11,24 @@ export default function ProjectsPage() {
         <p>Click on a project to learn more!</p>
         <ul>
           <li>
-            <a href="https://github.com/Kevmister331/nwHacks-2024" target="_blank">Leaguify</a>
+            <a href="https://github.com/Kevmister331/nwHacks-2024" target="_blank">
+              Leaguify
+            </a>
           </li>
           <li>
-            <a href="https://github.com/allanx1ng/Twitter-Clone" target="_blank">Twitter Clone</a>
+            <a href="https://github.com/allanx1ng/Twitter-Clone" target="_blank">
+              Twitter Clone
+            </a>
           </li>
           <li>
-            <a href="https://github.com/allanx1ng/GPT-Chatbot" target="_blank">GPT Chatbot</a>
+            <a href="https://github.com/allanx1ng/GPT-Chatbot" target="_blank">
+              GPT Chatbot
+            </a>
           </li>
           <li>
-            <a href="https://github.com/allanx1ng/3DRunnerMobileGame" target="_blank">Block Run</a>
+            <a href="https://github.com/allanx1ng/3DRunnerMobileGame" target="_blank">
+              Block Run
+            </a>
           </li>
         </ul>
 
@@ -61,6 +69,21 @@ export default function ProjectsPage() {
               <a href="/#/project4">Block Run</a>
             </p>
           </span> */}
+
+          <span>
+            <a
+              href="/#/project5"
+              target="blank"
+              className="projects-img"
+            >
+              <img src="/PortfolioTracker.png" width={600} />
+            </a>
+            <p className="projects_name">
+              <a href="/#/project5" target="blank">
+                Investment Portfolio Tracker
+              </a>
+            </p>
+          </span>
 
           <span>
             <a

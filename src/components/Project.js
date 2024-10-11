@@ -1,5 +1,5 @@
 import '../App.css';
-export default function Projects({ title, date, link, description, image }) {
+export default function Projects({ title, date, link, description, image, extra }) {
 
     const scrollToTop = () => {
         document.body.scrollTop = 0; // For Safari
@@ -24,6 +24,9 @@ export default function Projects({ title, date, link, description, image }) {
                 {description}
             </p>
             <img src={image} alt='Image unavailable' width={100} />
+            {extra.map((i) => (
+                <img src={i} alt='Image unavailable' width={100}/>
+            ))}
         </div>
     )
 }
