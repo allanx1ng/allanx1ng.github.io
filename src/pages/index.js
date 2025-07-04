@@ -28,9 +28,10 @@ const HomePage = () => {
           <div className="animatedText">
             <Typed
               strings={[
-                "Software Developer",
+                "Software Engineer",
+                "Prev @ Tesla, SAP",
                 "UBC Student",
-                "Third Year CS Major",
+                "4th Year CS Major",
               ]}
               typeSpeed={80}
               backSpeed={50}
